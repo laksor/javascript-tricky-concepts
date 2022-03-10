@@ -1,5 +1,5 @@
 
-// clouser
+// closuer (encapsulation, private variable)
 
 function stopWatch(){
     let counter = 0;
@@ -8,3 +8,5 @@ function stopWatch(){
         return counter;
     }
 }
+let clock1 = stopWatch();
+console.log(clock1());
